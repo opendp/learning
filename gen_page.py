@@ -56,7 +56,20 @@ all_resources = {
          'link': 'https://opendp.github.io/cs208/'}
     ],
 
-    'Articles': [
+    'Books & Articles': [
+        {'title': 'The Algorithmic Foundations of Differential Privacy',
+         'author': 'Cynthia Dwork, Aaron Roth',
+         'link': 'https://www.cis.upenn.edu/~aaroth/Papers/privacybook.pdf',
+         'description': 'A thorough introduction to the problems and techniques of differential privacy, including theoretical foundations, fundamental techniques, and applications.',
+         'badges': ['Somewhat technical'],
+         },
+
+        {'title': 'Hands-On Differential Privacy',
+         'author': 'Ethan Cowan, Michael Shoemate, Mayana Pereira',
+         'link': 'https://www.oreilly.com/library/view/hands-on-differential-privacy/9781492097730/',
+         'description': "Explains how differential privacy enables data scientists, researchers, and programmers to run statistical analyses that hide the contribution of any single individual. You'll dive into basic DP concepts and understand how to use open source tools to create differentially private statistics, explore how to assess the utility/privacy trade-offs, and learn how to integrate differential privacy into workflows.",
+         'badges': ['Coders']
+         },
 
         {'title': 'Designing Access with Differential Privacy',
          'author': 'Alexandra Wood, Micah Altman, Kobbi Nissim, Salil Vadhan',
