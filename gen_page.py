@@ -103,6 +103,13 @@ all_resources = {
          'badges': ['For Coders'],
          },
 
+        {'title': '',
+         'author': 'OpenDP Core Team',
+         'link': 'https://docs.opendp.org/en/stable/getting-started/index.html',
+         'description': 'An overview of the OpenDP Library\'s Python and R APIs.',
+         'badges': ['For Coders'],
+        },
+
         {'title': 'Exploring Differential Privacy: Laplace vs Gaussian',
          'author': 'Liudas Panavas',
          'link': 'https://lpanavas.github.io/mechanism-comparison/',
