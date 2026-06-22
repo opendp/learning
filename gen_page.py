@@ -109,7 +109,7 @@ all_resources = {
          'badges': ['Coders'],
          },
 
-        {'title': '',
+        {'title': 'Getting Started (OpenDP Library documentation)',
          'author': 'OpenDP Core Team',
          'link': 'https://docs.opendp.org/en/stable/getting-started/index.html',
          'description': 'An overview of the OpenDP Library\'s Python and R APIs.',
