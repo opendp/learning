@@ -57,6 +57,12 @@ all_resources = {
     ],
 
     'Books & Articles': [
+        {'title': 'Differential Privacy (The MIT Press Essential Knowledge series)',
+         'author': 'Simson L. Garfinkel',
+         'description': '"A robust yet accessible introduction to the idea, history, and key applications of differential privacy -- the gold standard of algorithmic privacy protection."',
+         'badges': ['Non-technical'],
+        },
+
         {'title': 'The Algorithmic Foundations of Differential Privacy',
          'author': 'Cynthia Dwork, Aaron Roth',
          'link': 'https://www.cis.upenn.edu/~aaroth/Papers/privacybook.pdf',
@@ -100,14 +106,14 @@ all_resources = {
          'author': 'Tumult Labs',
          'link': 'https://docs.tmlt.dev/analytics/latest/tutorials/index.html',
          'description': 'A tutorial series from Tumult Analytics, intended to get started generating differentially private data without any prior experience with DP.',
-         'badges': ['For Coders'],
+         'badges': ['Coders'],
          },
 
         {'title': '',
          'author': 'OpenDP Core Team',
          'link': 'https://docs.opendp.org/en/stable/getting-started/index.html',
          'description': 'An overview of the OpenDP Library\'s Python and R APIs.',
-         'badges': ['For Coders'],
+         'badges': ['Coders'],
         },
 
         {'title': 'Exploring Differential Privacy: Laplace vs Gaussian',
@@ -116,6 +122,13 @@ all_resources = {
          'description': 'A visualization of the utility tradeoffs between the Laplace and Gaussian mechanisms.',
          'badges': [],
         },
+
+        {'title': 'Introduction to differential privacy with OpenDP and DP Wizard',
+         'author': 'Chuck McCallum',
+         'link': 'https://opendp.github.io/dp-wizard',
+         'description': 'A slideshow with classroom exercises to introduce a non-technical audience to DP, by way of DP Wizard.',
+         'badges': ['Non-technical'],
+        }
         ]
 
     }
