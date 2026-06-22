@@ -80,7 +80,7 @@ all_resources = {
 
         {'title': 'A Non-technical Primer on Differential Privacy',
          'author': 'Alexandra Wood, Micah Altman, Aaron Bembenek, Mark Bun, Marco Gaboardi, James Honaker, Kobbi Nissim, David R. O\'Brien, Thomas Steinke & Salil Vadhan',
-         'link': 'https://salil.seas.harvard.edu/sites/scholar.harvard.edu/files/salil/files/differential_privacy_primer_nontechnical_audience.pdf',
+         'link': 'https://privacytools.seas.harvard.edu/publications/differential-privacy-primer-non-technical-audience-preliminary-version',
          'description': 'This primer seeks to introduce the concept of differential privacy and its privacy implications to non-technical audiences. It provides a simplified and informal, but mathematically accurate, description of differential privacy.',
          'badges': ['Non-technical'],
          },
