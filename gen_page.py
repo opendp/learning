@@ -61,6 +61,7 @@ all_resources = {
          'author': 'Simson L. Garfinkel',
          'description': '"A robust yet accessible introduction to the idea, history, and key applications of differential privacy -- the gold standard of algorithmic privacy protection."',
          'badges': ['Non-technical'],
+         'link': 'https://direct.mit.edu/books/book/5935/Differential-Privacy'
         },
 
         {'title': 'The Algorithmic Foundations of Differential Privacy',
