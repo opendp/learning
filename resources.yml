@@ -27,6 +27,7 @@ Blog Series:
   - Somewhat Technical
   - Blog Posts
   link: https://www.nist.gov/itl/applied-cybersecurity/privacy-engineering/collaboration-space/blog-series/differential-privacy
+
 Courses:
 - title: CS 860 - Algorithms for Private Data Analysis
   author: Gautam Kamath
@@ -68,7 +69,25 @@ Courses:
   - Technical
   - Course Notes
   link: https://opendp.github.io/cs208/
-Books & Articles:
+- title: Managing confidential data
+  author: Micah Altman
+  description: Differential privacy is part of a larger discussion on the use of confidential data in research,
+    emphasizing the importance of protecting privacy and confidentiality due to ethical,
+    legal, and practical implications. It outlines strategies for data management,
+    challenges with traditional approaches, and discusses relevant laws and policies.
+  badges:
+  - Course Notes
+  link: https://www.slideshare.net/slideshow/altman-confidentialdata-v22mit/21164359#25
+- title: Differential Privacy in CDFs
+  author: Daniel Muise, Kobbi Nissim
+  description: '"The ultimate aim of this presentation is to familiarize
+    social scientists with the errors introduced by differential
+    privacy (DP), and to explain how to manage DP’s
+    random noise."'
+  badges:
+  - Course Notes
+
+Books:
 - title: Differential Privacy (The MIT Press Essential Knowledge series)
   author: Simson L. Garfinkel
   description: '"A robust yet accessible introduction to the idea, history, and key
@@ -95,6 +114,16 @@ Books & Articles:
     privacy into workflows.
   badges:
   - Coders
+- title: Programming Differential Privacy
+  author: Joseph P. Near and Chiké Abuah
+  link: https://programming-dp.com/
+  description: Uses examples and Python code
+    to explain the ideas behind differential privacy. The book is suitable for
+    undergraduate students in computer science, and no theory background is expected.
+  badges:
+  - Coders
+
+Articles:
 - title: Designing Access with Differential Privacy
   author: Alexandra Wood, Micah Altman, Kobbi Nissim, Salil Vadhan
   link: https://admindatahandbook.mit.edu/book/v1.0/diffpriv.html
@@ -119,6 +148,18 @@ Books & Articles:
     research on differential privacy.
   badges:
   - Technical
+- title: 'Privacy by the Numbers: A New Approach to Safeguarding Data'
+  author: Erica Klarreich
+  link: https://www.scientificamerican.com/article/privacy-by-the-numbers-a-new-approach-to-safeguarding-data/
+  description: A mathematical technique called “differential privacy” gives researchers
+    access to vast repositories of personal data while meeting a high standard for privacy protection.
+  badges:
+  - Non-technical
+- title: A firm foundation for Private Data analysis
+  author: Cynthia Dwork
+  link: https://dl.acm.org/doi/epdf/10.1145/1866739.1866758
+  description: A review article in the Communications of the ACM from 2011.
+
 Tutorials:
 - title: Tumult Analytics tutorials
   author: Tumult Labs
@@ -146,3 +187,9 @@ Tutorials:
     to DP, by way of DP Wizard.
   badges:
   - Non-technical
+
+Resources:
+- title: Differential Privacy Deployments Registry
+  link: https://registry.opendp.org/deployments-registry/
+  description: '"This registry is a collaborative resource for information about real-world differential privacy deployments."'
+  badges: []
